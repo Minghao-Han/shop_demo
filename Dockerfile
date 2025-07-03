@@ -31,4 +31,4 @@ COPY --from=builder /app/server .
 ENV GIN_MODE=release
 EXPOSE 8889
 
-# CMD ["./server"]
+CMD ["./server"]
