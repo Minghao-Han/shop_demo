@@ -1,0 +1,73 @@
+# 忽略操作系统生成的垃圾文件
+.DS_Store
+Thumbs.db
+
+# 忽略日志文件和临时文件
+*.log
+*.tmp
+*.swp
+
+# 忽略编译产物
+*.o
+*.out
+*.class
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# 忽略包管理工具生成的依赖
+node_modules/
+vendor/
+dist/
+build/
+target/
+
+# 忽略 IDE 和编辑器配置
+.vscode/
+.idea/
+*.iml
+
+# 忽略环境配置
+.env
+.env.local
+.env.*
+
+# Git 忽略自身
+.git/
+
+# macOS 系统文件
+*.DS_Store
+
+# Windows 系统文件
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux 系统文件
+*~
+
+# Python 项目
+*.egg
+*.egg-info/
+.eggs/
+
+# Go 项目
+bin/
+pkg/
+*.exe
+**/output/
+**/script/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Coverage
+coverage.*
+*.cover
+*.lcov
+.cache/
+.nyc_output/
+.coverage
+
+# Docker
+docker-compose.override.yml
